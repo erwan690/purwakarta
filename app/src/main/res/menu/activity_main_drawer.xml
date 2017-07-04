@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_sate"
+            android:icon="@drawable/ic_sate"
+            android:title="Kategori" />
+        <item
+            android:id="@+id/nav_menong"
+            android:icon="@drawable/ic_shop"
+            android:title="Galery Menong" />
+        <item
+            android:id="@+id/nav_simping"
+            android:icon="@drawable/ic_shop"
+            android:title="Simping Kaum" />
+        <item
+            android:id="@+id/nav_peuyeum"
+            android:icon="@drawable/ic_shop"
+            android:title="Peuyeum Bendul" />
+
+        <item
+            android:id="@+id/nav_tjeplak"
+            android:icon="@drawable/ic_street_food"
+            android:title="Tjeplak Kuliner" />
+
+        <item
+            android:id="@+id/nav_pujasera"
+            android:icon="@drawable/ic_food"
+            android:title="Pujasera Srikandi" />
+
+        <item
+            android:id="@+id/nav_warung_terdekat"
+            android:icon="@drawable/ic_placeholder"
+            android:title="Warung Terdekat" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
